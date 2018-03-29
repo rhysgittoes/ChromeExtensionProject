@@ -1,0 +1,34 @@
+/*
+
+div:first-child {
+}
+
+div {
+
+}
+div:hover {
+
+}
+*/
+
+body {
+    min-width:300px;
+}
+#logo{
+	max-width: 75%;
+	filter:invert(100%);
+}
+
+#pink_button{
+	background-color:#17A111;
+	transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
+	color:white;
+	width: 100%;
+	margin-bottom:0rem;
+}
+
+#pink_button:hover{
+	background: white;
+	border-color: #9c27b0;
+	color:#9c27b0;
+}
