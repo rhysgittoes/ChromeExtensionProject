@@ -13,6 +13,8 @@ div:hover {
 
 body {
     min-width:300px;
+    height: 100%;
+    padding-bottom:0px !important;
 }
 #logo{
 	max-width: 75%;
@@ -23,12 +25,14 @@ body {
 	background-color:#17A111;
 	transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
 	color:white;
-	width: 100%;
-	margin-bottom:0rem;
+	width: 80%;
+	margin-bottom: 1rem;
+	
 }
 
 #pink_button:hover{
 	background: white;
 	border-color: #9c27b0;
 	color:#9c27b0;
+
 }
