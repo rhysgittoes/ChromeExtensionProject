@@ -36,3 +36,30 @@ body {
 	color:#9c27b0;
 
 }
+
+#email{
+	max-width: 80%;  
+	margin: 0 0; 
+	display: inline-block;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-color: gray;
+
+}
+#mail_icon_div{
+
+	margin:0px; 
+	display: inline-block;
+	border-color: gray;
+	padding-left: 0.6rem;
+	padding-right: 0.6rem;
+	padding-top:0.651rem;
+	padding-bottom: 0.55rem;
+	margin-right: -5px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right-width: 0px;
+}
