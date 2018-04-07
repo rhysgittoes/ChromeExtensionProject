@@ -24,9 +24,23 @@ document.addEventListener('DOMContentLoaded', function () {
 // 	event.hide();
 // })
 
-		$("#test_button").click(function(){
-			$("#test_button").preventDefault();
-			console.log("hello there")	
+		// $("#test_button").click(function(event){
+		// 	event.preventDefault();
+		// 	console.log("hello there")	
+		// })
+
+		$("#forgot_pass_link").click(function(event){
+			event.preventDefault();
+			// console.log("hello there");
+			//  var newURL = "http://google.com";
+			// chrome.window.create({url: newURL})
+			 window.open("https://client.my-private-network.co.uk/pwreset.php")	 
+
+		})
+
+		$("#sign_up_button").click(function(){
+				window.open("https://client.my-private-network.co.uk/clientarea.php")
+
 		})
 
 });
