@@ -3,15 +3,33 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-function click(e) {
-  chrome.tabs.executeScript(null,
-      {code:"document.body.style.backgroundColor='" + e.target.id + "'"});
+// function click(e) {
+//   chrome.tabs.executeScript(null,
+//       {code:"document.body.style.backgroundColor='" + e.target.id + "'"});
  
-}
+// }
+
+// document.addEventListener('DOMContentLoaded', function () {
+
+//   var divs = document.querySelectorAll('div');
+//   for (var i = 0; i < divs.length; i++) {
+//     divs[i].addEventListener('click', click);
+//   }
+// });
+
 
 document.addEventListener('DOMContentLoaded', function () {
-  var divs = document.querySelectorAll('div');
-  for (var i = 0; i < divs.length; i++) {
-    divs[i].addEventListener('click', click);
-  }
+// $("#pink_button").click(function(event){
+// 	event.preventDefault();
+// 	event.hide();
+// })
+
+		$("#test_button").click(function(){
+			$("#test_button").preventDefault();
+			console.log("hello there")	
+		})
+
 });
+
+ // $(".hewothere").click(function () {
+//       // $("#laptop").hide();

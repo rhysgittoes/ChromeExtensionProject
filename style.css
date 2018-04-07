@@ -23,17 +23,22 @@ body {
 
 #pink_button{
 	background-color:#17A111;
-	transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
+	/*transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);*/
 	color:white;
 	width: 80%;
 	margin-bottom: 1rem;
+	border-radius: 0px;
+  transition:all 0.5s ease;
+  border-radius: 5px;
+
 	
 }
 
 #pink_button:hover{
-	background: white;
+	background: #9c27b0;
 	border-color: #9c27b0;
-	color:#9c27b0;
+	color:white;
+
 
 }
 
@@ -44,6 +49,19 @@ body {
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
 	border-color: gray;
+	border-left-width: 0px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+}
+#pwd{
+	max-width: 80%;  
+	margin: 0 0; 
+	display: inline-block;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-color: gray;
+	border-left-width: 0px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
 }
 #mail_icon_div{
@@ -63,3 +81,13 @@ body {
 	border-bottom-left-radius: 5px;
 	border-right-width: 0px;
 }
+
+
+
+
+
+
+
+
+
+
